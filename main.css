@@ -1,5 +1,44 @@
-div {
-  background-color: azure;
-  border: 1px solid aquamarine;
-  padding: 30px;
+body {
+  background: linear-gradient(to bottom, #334466 15%, #CC3300 75%);
+}
+
+header {
+  text-align: center;
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+section {
+  padding-left: 1.8em;
+  white-space: pre-wrap;
+}
+
+#contact {
+  padding-left: 1.8em;
+  margin-bottom: 50px !important;
+}
+
+#contact #sally {
+ position: relative;
+ left: 65px;
+}
+
+#contact #vs-tag {
+  font-size: 30px;
+  position: relative;
+  bottom: 205px;
+  left: 400px;
+}
+
+#contact #challenger {
+ position: relative;
+ left: 50%;
+ bottom: 400px;
+ width: 360px;
+ height: auto;
+}
+
+#contact #pic-caption {
+  position: relative;
+  bottom: 300px;
 }
